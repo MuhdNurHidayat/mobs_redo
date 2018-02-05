@@ -2,12 +2,12 @@
 # Copyright (c) 2014 Krupnov Pavel and 2016 TenPlus1
 # This file is distributed under the same license as the MOBS REDO package.
 # Hamlet <h4mlet@riseup.net>, 2017.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Italian locale file for the Mobs Redo module\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-02 16:48+0200\n"
+"POT-Creation-Date: 2018-02-05 23:40+0800\n"
 "PO-Revision-Date: 2017-08-18 12:18+0100\n"
 "Last-Translator: H4mlet <h4mlet@riseup.net>\n"
 "Language-Team: \n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.6.10\n"
+
+#: api.lua
+msgid "** Peaceful Mode Active - No Monsters Will Spawn"
+msgstr ""
 
 #: api.lua
 msgid "Mob has been protected!"
@@ -41,10 +45,6 @@ msgstr "Mancat*!"
 #: api.lua
 msgid "Already protected!"
 msgstr "Già protett*!"
-
-#: api.lua
-msgid "Protected!"
-msgstr "Protett*!"
 
 #: api.lua
 msgid "@1 at full health (@2)"
@@ -98,6 +98,11 @@ msgstr "Runa di protezione per mob"
 msgid "Saddle"
 msgstr "Sella"
 
+#: crafts.lua
+#, fuzzy
+msgid "Mob Fence"
+msgstr "Generatore di mob"
+
 #: spawner.lua
 msgid "Mob Spawner"
 msgstr "Generatore di mob"
@@ -125,3 +130,6 @@ msgid ""
 msgstr ""
 "Sintassi: “name min_light[0-14] max_light[0-14] max_mobs_in_area[0 per "
 "disabilitare] distance[1-20] y_offset[-10 to 10]”"
+
+#~ msgid "Protected!"
+#~ msgstr "Protett*!"

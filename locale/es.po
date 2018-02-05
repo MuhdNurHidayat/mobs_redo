@@ -2,12 +2,12 @@
 # Copyright (C) 2017 TenPlus1
 # This file is distributed under the same license as the mobs package.
 # Wuzzy <Wuzzy@mail.ru>, 2017
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-16 16:48+0200\n"
+"POT-Creation-Date: 2018-02-05 23:40+0800\n"
 "PO-Revision-Date: 2017-07-16 16:48+0200\n"
 "Last-Translator: Aleks <alexsinteck@icqmail.com>\n"
 "Language-Team: \n"
@@ -15,6 +15,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: api.lua
+msgid "** Peaceful Mode Active - No Monsters Will Spawn"
+msgstr ""
 
 #: api.lua
 msgid "Mob has been protected!"
@@ -39,10 +43,6 @@ msgstr "Perdido!"
 #: api.lua
 msgid "Already protected!"
 msgstr "Ya está protegido!"
-
-#: api.lua
-msgid "Protected!"
-msgstr "Protegido!"
 
 #: api.lua
 msgid "@1 at full health (@2)"
@@ -96,6 +96,11 @@ msgstr "Runa de protección de Mob"
 msgid "Saddle"
 msgstr "Montura"
 
+#: crafts.lua
+#, fuzzy
+msgid "Mob Fence"
+msgstr "Generador de Mob"
+
 #: spawner.lua
 msgid "Mob Spawner"
 msgstr "Generador de Mob"
@@ -120,5 +125,9 @@ msgstr "Configuracion de generador de Mob falló!"
 msgid ""
 "Syntax: “name min_light[0-14] max_light[0-14] max_mobs_in_area[0 to disable] "
 "distance[1-20] y_offset[-10 to 10]”"
-msgstr "Sintaxis: “nombre luz_min[0-14] luz_max[0-14] max_mobs_en_area[0 para deshabilitar] "
-"distancia[1-20] compensacion[-10 a 10]”"
+msgstr ""
+"Sintaxis: “nombre luz_min[0-14] luz_max[0-14] max_mobs_en_area[0 para "
+"deshabilitar] distancia[1-20] compensacion[-10 a 10]”"
+
+#~ msgid "Protected!"
+#~ msgstr "Protegido!"

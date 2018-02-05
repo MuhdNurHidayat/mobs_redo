@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-13 15:47+0200\n"
+"POT-Creation-Date: 2018-02-05 23:40+0800\n"
 "PO-Revision-Date: 2017-08-13 15:47+ZONE\n"
 "Last-Translator: Oleg720 <olegsiriak@yandex.ru>\n"
 "Language-Team: 720 Locales <>\n"
@@ -16,6 +16,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: api.lua
+msgid "** Peaceful Mode Active - No Monsters Will Spawn"
+msgstr ""
 
 #: api.lua
 msgid "Mob has been protected!"
@@ -40,10 +44,6 @@ msgstr ""
 #: api.lua
 msgid "Already protected!"
 msgstr "Уже защищен!"
-
-#: api.lua
-msgid "Protected!"
-msgstr "Защищен!"
 
 #: api.lua
 msgid "@1 at full health (@2)"
@@ -97,6 +97,10 @@ msgstr ""
 msgid "Saddle"
 msgstr "Седло"
 
+#: crafts.lua
+msgid "Mob Fence"
+msgstr ""
+
 #: spawner.lua
 msgid "Mob Spawner"
 msgstr "Спавнер моба"
@@ -122,3 +126,6 @@ msgid ""
 "Syntax: “name min_light[0-14] max_light[0-14] max_mobs_in_area[0 to disable] "
 "distance[1-20] y_offset[-10 to 10]”"
 msgstr ""
+
+#~ msgid "Protected!"
+#~ msgstr "Защищен!"
